@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Object</title>
+</head>
+
+<body>
+
+   <h1>Tìm Hiểu Về Object</h1>
+
+
+    <script>
+        const product ={
+            name: 'chi',
+            price: 1900,
+            ['delivery-time']: '1 -day',
+            rating: {
+                starts: 4.5,
+                count:89
+            },
+
+            fun: function funtionName(){
+                console.log('function nam');
+            }
+        };
+
+        // console.log(product);
+        // product.fun();
+    //     console.log(product.name);
+       
+    //     product.name = 'thanh';
+    //     console.log(product);
+
+    //     //add
+    //     product.newProperty = true;
+    //     console.log(product);
+    //     // delete
+    //    console.log['name'];
+    // console.log(product.rating.starts);
+
+    console.log((JSON.stringify(product)));
+    const jsonString = JSON.stringify(product);
+    console.log (JSON.parse(jsonString));
+    const saveFile = JSON.parse(jsonString);
+    localStorage.setItem(saveFile);
+
+       
+      
+
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+.input-group{
+    width: 240px;
+    margin-left:30px;
+}
+.nav-item a{
+    padding-right: 10px;
+    font-size: 15px;
+    font-family:'Segoe UI',
+        Tahoma,
+        Geneva,
+        Verdana,
+        sans-serif;
+    color:rgb(128, 126, 126);
+}
+.component{
+        font-size: 60px;
+        color: rgb(14, 14, 14);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: left;
+        line-height: 60px;
+        font: bold;
+        margin: 50px 50px 0px 50px;
+
+}
+.pcomponent{
+        font-size: 15px;
+        font-weight: 86;
+        color: rgb(187, 186, 186);
+        font-family: sans-serif;
+        padding: 10px 0px 10px 50px;
+        text-align: left;
+
+}
+.btn-group button{
+        width:114px;
+        padding: 10px;
+        border-radius: 25px;
+        text-align:center;
+        background-color:rgb(243, 67, 67);
+        border: none !important;
+    
+}
+
+.card{
+    width: 100%;
+    height: auto;
+    border: none;
+    position: relative;
+    
+}
+
+.headComponet3 h3{
+    font-size: 60px;
+    color: rgb(14, 14, 14);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    line-height: 60px;
+    font: bold;
+    margin: 50px 50px 0px 50px;
+}
+.headComponet3 p{
+    font-size: 15px;
+    font-weight: 86;
+    color: rgb(187, 186, 186);
+    font-family: sans-serif;
+    padding: 10px 0px 10px 50px;
+    text-align: center;
+}
+.teamMoney{
+    position:absolute;
+    background-color: rgb(236, 61, 85);
+    color:rgb(250, 245, 245);
+    padding: 10px;
+    border-radius: 15px 0px 0px 15px;
+    width: 60px;
+    right:0px;
+    top:131px;
+    text-align: center;
+}
+.masthead{
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%,
+            #242424 100%), url("/assets/img/header_flow.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.form-control{
+    width: 400px;
+    border-style:  bottom solid;
+    border-radius: normal;
+    border:none;
+    border-bottom: 1px solid rgb(236, 61, 85)  ;
+    
+}
+.imgeFooterCard{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+/* .imgeCard{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+} */

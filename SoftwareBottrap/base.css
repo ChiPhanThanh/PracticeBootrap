@@ -1,0 +1,56 @@
+:root {
+  --color-one: #8261ee;
+  --color-two: #ff589e;
+  --color-text: #1e1e1e;
+  --font: "Raleway", sans-serif;
+}
+
+body {
+  color: var(--color-text);
+  line-height: 1.6;
+  font-family: var(--font);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+/*button*/
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 45px;
+  background: #fff;
+  color: var(--color-text);
+  font-size: 14px;
+}
+.button-one {
+  background: var(--color-two);
+  color: #fff;
+}
+
+.button-one:hover {
+  background: var(--color-one);
+  color: #fff;
+}
+.button .button-two {
+  background: var(--color-two);
+  color: #dfff;
+}
+.button-two:hover {
+  background: var(--color-two);
+}
+.box-head {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.box-head .inner-title {
+  font-size: 28px;
+  margin-bottom: 0;
+}
+.box-head .inner-desc {
+  font-size: 15px;
+  margin-top: 10px;
+}

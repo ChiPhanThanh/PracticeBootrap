@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cart</title>
+    </head>
+    <body>
+        <p id = "change" style="color: blue">phan thanh chi</p>
+        <div id = "ContainerO" style="width: 400px;height: 100px; color:rgb(17, 20, 20); border: 1px solid red;"> Chào phan thanh chi</div>
+        <!-- <button type="submit" onclick = "Change()">OKe</button> -->
+        <button type="button" id  = "btn1" >Ẩn</button>
+        <button type="button"  id  = "btn2">Hiện thị</button>
+
+        
+        <!-- <button 
+            onclick = "console.log(`Cart dont put iteam: ${cartIteam}`);"
+        >show quantity</button>
+        <button 
+        onclick = "cartIteam++;
+        console.log(`Cart get iteam: ${cartIteam}`);"
+        >AddCart</button>
+        <button
+        onclick = "cartIteam = cartIteam + 2;
+        console.log(`Cart get 2 iteam: ${cartIteam}`);"
+        >+2</button>
+        <button>+3</button>
+        <button
+        onclick = "console.log(cartIteam = 0);"
+        >Xóa hết</button> -->
+
+         <!-- <button 
+                onclick = "document.body.innerHTML = (`Total: ${(coffee + bagel +soup)*0.1}`);"
+            >Total:</button>
+        
+            // let cartIteam = 0;
+            
+            let   coffee = 5;
+            let bagel = 3;
+            let soup = 9; -->
+        <script>
+            function Change(){
+                document.getElementById("change").style = "color: black; font-size: 40px; background-color: blue;";
+            
+            }
+
+             document.getElementById("btn1").onclick = function(){
+                document.getElementById("ContainerO").style.display = 'none';
+             }
+            
+    
+ 
+            
+            document.getElementById("btn2").onclick = function(){
+                document.getElementById("ContainerO").style.display = 'block';
+            }
+
+            tinhTong = (a,b) =>{
+                document.write(a + b);
+            }
+            tinhTong(2,5);
+        
+
+
+           
+        </script>
+    </body>
+</html>

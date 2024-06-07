@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Object</title>
+</head>
+
+<body>
+
+    
+    <form>
+        <input type = "text" value = "nhapso" placeholder="nhập số" id  = "nhap">
+        <button type = "submit" value = "submit" onClick = "ketqua()">Submmit</button>
+    </form>
+
+
+    <script>
+
+        function ketqua(){
+
+            var nhap = document.getElementById("nhap").value;
+            nhap = parseInt(nhap);
+
+            var html = '';
+            for ( var i = 1; i <= nhap; i++){
+                html += i + '<br/>';
+            }
+         }
+    </script>
+
+</body>
+
+</html>
