@@ -225,7 +225,9 @@
   }
 }
 /*section five*/
+
 /*section six*/
+
 /*section blog-entries*/
 .blog-entries {
   padding-top: 80px;
@@ -264,4 +266,35 @@
     max-width: 370px;
     margin: 0px auto;
   }
+}
+
+/*talk to ú*/
+.talk-to-us {
+  background: #80bdff;
+  padding: 80px 0;
+}
+.talk-to-us .inner-content .inner-title {
+  font-size: 50px;
+}
+.talk-to-us .inner-form input,
+.talk-to-us .inner-form textarea {
+  border-radius: 15px;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #fff;
+  background: #fff;
+}
+.talk-to-us .inner-form input:focus,
+.talk-to-us .inner-form textarea:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem #rgba(0, 123, 255, 0.25);
+}
+
+.talk-to-us .inner-form input {
+  height: 50px;
+}
+.talk-to-us .inner-form textarea {
+  height: 150px;
 }

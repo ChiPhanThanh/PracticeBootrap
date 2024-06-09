@@ -24,6 +24,7 @@ a {
   background: #fff;
   color: var(--color-text);
   font-size: 14px;
+  border: none;
 }
 .button-one {
   background: var(--color-two);
